@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="servlets:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e7f92d2-c58b-4026-940c-f6642264a80a" name="Changes" comment="Java Config">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/configuration/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/initializer/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/request.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/di-annotation" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/Gson.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/internal/ConstructorConstructor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/stream/JsonReader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CtwvDwTiIo17GFop43RnfnBpi1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/my life/JavaProjects/Netology/spring/spring_mvc/spring_mvc&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;43468e1058ee6e0d280a45d493ceb014&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my life\JavaProjects\Netology\spring\spring_mvc\spring_mvc" />
+      <recent name="C:\my life\JavaProjects\Netology\spring\servlets\servlets\src\main\java\ru\netology\servlet" />
+      <recent name="C:\my life\JavaProjects\Netology\spring\servlets\servlets\src\main\java\ru\netology\controller" />
+      <recent name="C:\my life\JavaProjects\Netology\spring\servlets\servlets" />
+      <recent name="C:\my life\JavaProjects\Netology\spring\servlets\servlets\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\my life\JavaProjects\Netology\spring\servlets\servlets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.netology.initializer" />
+      <recent name="ru.netology.configuration" />
+      <recent name="ru.netology" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e7f92d2-c58b-4026-940c-f6642264a80a" name="Changes" comment="" />
+      <created>1659635418370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659635418370</updated>
+      <workItem from="1659635431272" duration="307000" />
+      <workItem from="1659635758532" duration="2000" />
+      <workItem from="1659635786069" duration="1354000" />
+      <workItem from="1659805279515" duration="8698000" />
+      <workItem from="1659867618281" duration="14146000" />
+      <workItem from="1660070305675" duration="4455000" />
+      <workItem from="1660376991827" duration="753000" />
+      <workItem from="1660547323593" duration="1238000" />
+    </task>
+    <task id="LOCAL-00001" summary="default">
+      <created>1659635925552</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659635925552</updated>
+    </task>
+    <task id="LOCAL-00002" summary="settings server">
+      <created>1659640119218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659640119219</updated>
+    </task>
+    <task id="LOCAL-00003" summary="refactoring">
+      <created>1659869937094</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659869937094</updated>
+    </task>
+    <task id="LOCAL-00004" summary="repository">
+      <created>1659889825707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659889825707</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Annotation Config">
+      <created>1660074370371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660074370371</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java Config">
+      <created>1660075929009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660075929009</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="default" />
+    <MESSAGE value="settings server" />
+    <MESSAGE value="refactoring" />
+    <MESSAGE value="repository" />
+    <MESSAGE value="Annotation Config" />
+    <MESSAGE value="Java Config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Config" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/stream/JsonReader.java</url>
+          <line>377</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/Gson.java</url>
+          <line>931</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/stream/JsonReader.java</url>
+          <line>423</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="ru.netology.controller.PostController" memberName="service" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="path.contains(&quot;\\d+&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
