@@ -4,6 +4,7 @@ import org.springframework.stereotype.Repository;
 import ru.netology.exception.NotFoundException;
 import ru.netology.model.Post;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
@@ -16,7 +17,7 @@ public class PostRepository {
     private static ConcurrentMap<Long, Post> dataBase = new ConcurrentHashMap<>();
 
     public List<Post> all() {
-        return dataBase.values().stream().toList();
+        return Collections.emptyList();
     }
 
     public Optional<Post> getById(long id) {
